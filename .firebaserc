@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "app-itadakimasu": {
+      "hosting": {
+        "itadakimasu": [
+          "app-itadakimasu"
+        ]
+      }
+    }
+  }
+}
