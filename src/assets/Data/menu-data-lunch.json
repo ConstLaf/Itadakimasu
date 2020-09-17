@@ -1,0 +1,64 @@
+{
+  "lunch": [
+    {
+      "img": "../../assets/Menu/Ramen.png",
+      "name": "Ramen shoyu",
+      "price": 6000,
+      "lunchTopping": [
+        {
+          "name": "Alga nori",
+          "price": 1000
+        },
+        {
+          "name": "Alga wakame",
+          "price": 1000
+        }
+      ]
+    },
+    {
+      "img": "../../assets/Menu/Ramen.png",
+      "name": "Ramen tonkotsu",
+      "price": 6000,
+      "lunchTopping": [
+        {
+          "name": "Alga nori",
+          "price": 1000
+        },
+        {
+          "name": "Alga wakame",
+          "price": 1000
+        }
+      ]
+    },
+    {
+      "img": "../../assets/Menu/Chirashi.png",
+      "name": "Chirashi",
+      "price": 7000
+    },
+    {
+      "img": "../../assets/Menu/Udon.png",
+      "name": "Yaki udon",
+      "price": 7000,
+      "lunchTopping": [
+        {
+          "name": "Alga nori",
+          "price": 1000
+        },
+        {
+          "name": "Alga wakame",
+          "price": 1000
+        }
+      ]
+    },
+    {
+      "img": "../../assets/Menu/Temaki.png",
+      "name": "Temaki sake",
+      "price": 2500
+    },
+    {
+      "img": "../../assets/Menu/Sukiyaki.png",
+      "name": "Sukiyaki",
+      "price": 12000
+    }
+  ]
+}

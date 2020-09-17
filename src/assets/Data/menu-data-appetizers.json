@@ -1,0 +1,34 @@
+{
+  "appetizers": [
+    {
+      "img": "../../assets/Menu/Gyozas.png",
+      "name": "Gyozas cerdo",
+      "price": 3500
+    },
+    {
+      "img": "../../assets/Menu/Gyozas.png",
+      "name": "Gyozas verdura",
+      "price": 3200
+    },
+    {
+      "img": "../../assets/Menu/Gyozas.png",
+      "name": "Gyozas camarón",
+      "price": 3500
+    },
+    {
+      "img": "../../assets/Menu/Camarones.png",
+      "name": "Camarón apanado",
+      "price": 5000
+    },
+    {
+      "img": "../../assets/Menu/Tofu.png",
+      "name": "Tofu apanado",
+      "price": 3500
+    },
+    {
+      "img": "../../assets/Menu/Sashimi.png",
+      "name": "Surtido sashimi",
+      "price": 12000
+    }
+  ]
+}
