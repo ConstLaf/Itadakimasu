@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #fafafa;
+  }
+  
+  body{
+    background-image: url('../src/assets/fondo-itadakimasu2.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
