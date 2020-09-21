@@ -1,1 +1,59 @@
-<p>waiter works!</p>
+<div class="ctn-waiter-order">
+  <div class="ctn-waiter">
+    <div class="waiterA">
+      <h1>MESERO</h1>
+
+      <div class="clientContainer" (ngSubmit)= "addClientInfo()">
+        <!-- (ngSubmit)= "addClientInfo()" -->
+
+        <div class="clientName">
+          <h6>NOMBRE CLIENTE</h6>
+          <input type="text" autocomplete="off" placeholder="Escribe el nombre"
+          name="clientName"
+          [(ngModel)]="clientInfo.clientName">
+          <!-- [(ngModel)]="clientInfo.clientName" -->
+          <!--ngModel: enlace del ts con template, sincronizandolos-->
+        </div>
+
+        <div class="tableNumber">
+
+          <div class="tableNumber2">
+            <h6>N° MESA</h6>
+            <input type="number" autocomplete="off" placeholder="Escribe el número"
+            name="tableNumber"
+            [(ngModel)]="clientInfo.tableNumber">
+          <!-- [(ngModel)]="clientInfo.tableNumber"-->
+          </div>
+
+          <div class="containerBtnAdd">
+            <div class="correctBtn">
+              <button class="submitBtn" type="submit">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-check-square svgBtn" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                  <path fill-rule="evenodd" d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="menuNavBar">
+        <a class="btnMenu" routerLink='drinks' routerLinkActive="router-link-active">BEBESTIBLES</a>
+        <a  class="btnMenu" routerLink='appetizers' routerLinkActive="router-link-active">APERITIVO</a>
+        <a  class="btnMenu" routerLink='lunch' routerLinkActive="router-link-active">ALMUERZO</a>
+      </div>
+
+      <div>
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+
+    <div class="waiterB">
+      <app-order></app-order>
+    </div>
+  </div>
+
+</div>

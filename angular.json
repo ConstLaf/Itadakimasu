@@ -125,5 +125,8 @@
       }
     }
   },
-  "defaultProject": "itadakimasu"
+  "defaultProject": "itadakimasu",
+  "cli": {
+    "analytics": false
+  }
 }
