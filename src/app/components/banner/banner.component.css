@@ -1,0 +1,26 @@
+/* font-family: 'Roboto', sans-serif; */
+*{
+  font-size: 1rem;
+}
+
+header{
+  background:#FF7663;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+header img{
+  height: 100%;
+}
+
+.homeBtn{
+  text-decoration: none;
+  color:#fafafa;
+  font-size: 1.2em;
+  float: right;
+  font-weight: 700;
+}
+

@@ -6,10 +6,17 @@
     font-family: 'Roboto', sans-serif;
     color: #fafafa;
   }
-  
+
   body{
-    background-image: url('../src/assets/fondo-itadakimasu2.jpg');
+    background-image: url('../src/assets/Pulpo-fondo-img-1920x1080.jpg');
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100px;
+    width: 100%;
   }
-  
+
+  @media (max-width: 1281px){
+    body{
+      background-image: url('../src/assets/Pulpo-fondo-img-1280x800.jpg');
+    }
+
+  }

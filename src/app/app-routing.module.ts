@@ -12,7 +12,7 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent},
   { path: 'waiter', component: WaiterComponent,
     children:[
-      { path: '', pathMatch: 'prefix', redirectTo: 'drinks'},
+      // { path: '', pathMatch: 'prefix', redirectTo: 'drinks'},
       { path: 'drinks', component: MenuDrinksComponent},
       { path: 'appetizers', component: MenuAppetizersComponent},
       { path: 'lunch', component: MenuLunchComponent}
